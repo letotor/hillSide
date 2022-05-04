@@ -1,0 +1,18 @@
+{
+  "name": "hillSide",
+  "version": "1.0.0",
+  "description": "Little boxes on the hillside",
+  "main": "index.js",
+  "author": "victor DG <v.degermain@gmail.com>",
+  "license": "MIT",
+  "private": false,
+
+  "scripts":{
+    "start":"parcel index.html",
+    "clean" : "rm -Rf dist/",
+    "cdev": "rm -Rf ./dist && parcel index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  }
+}
