@@ -10,7 +10,9 @@
   "scripts":{
     "start":"parcel index.html",
     "clean" : "rm -Rf dist/",
-    "cdev": "rm -Rf ./dist && parcel index.html"
+    "cdev": "rm -Rf ./dist && parcel index.html",
+    "deploy": "netlify deploy",
+    "deployProd": "netlify deploy --prod"
   },
   "devDependencies": {
     "parcel": "^2.5.0"

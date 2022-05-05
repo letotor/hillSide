@@ -10,4 +10,5 @@
 
 ## Les commandes
 + ```yarn run start``` : run projet sous parcel
-
++ ```yarn run deploy``` : deploiement projet sur netlify
++ ```yarn run deployProd``` : deploiement en prod
