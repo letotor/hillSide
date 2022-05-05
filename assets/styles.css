@@ -8,6 +8,12 @@
 li{
     list-style: none;
 }
+
+
+a{
+    text-decoration: none;
+    text-underline: none;
+}
 /***/
 
 
@@ -122,6 +128,10 @@ form{
 footer{
     background-color: #555;
     color:white;
-    padding:2rem 0;
+    padding:1.5rem 0;
     text-align: center;
+}
+
+footer a{
+    color : #888;
 }
