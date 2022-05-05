@@ -8,3 +8,6 @@
 ## Solution 
 [site web ici](https://hillside-dgwebcreation.netlify.app 'maquette')
 
+## Les commandes
++ ```yarn run start``` : run projet sous parcel
+
