@@ -128,12 +128,12 @@ footer{
 }
 
 footer a{
-    color : #888;
+    color: #f77;
     transition: 0.8s 0s ease-in-out;
 }
 
 footer a:hover {
-    color: #f77;
+    color: rgb(254, 84, 84);
     font-size: 1.2rem;
 }
 /***FIN FOOTER***/

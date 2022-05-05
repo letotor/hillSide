@@ -6,7 +6,7 @@
 ![maquette](http://images.innoveduc.fr/integration_parcours/css/css_box_model/maquette-box-model.png 'maquette')
 
 ## Solution 
-[site web ici](https://hillside-dgwebcreation.netlify.app 'hillsite website')
+[site web Responsive ici](https://hillside-dgwebcreation.netlify.app 'hillsite website')
 
 ## Les commandes
 + ```yarn run start``` : run projet sous parcel
