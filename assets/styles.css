@@ -9,47 +9,45 @@ li{
     list-style: none;
 }
 
-
 a{
     text-decoration: none;
-    text-underline: none;
 }
-/***/
 
+/**FIN RESET***/
 
 body{
     background: white;
     color:darkgray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-h2{
 
+h2{
     font-size: 2rem;
     color: grey;
 }
-/***CLASSE GENERIQUES***/
+
+
+
+/***CLASSES GENERIQUES***/
 .container {
     margin: 0 auto;
     width:70%;
 }
 
-
 .active{
     background-color: #eee;
 }
+/***FIN CLASSE GENERIQUES***/
 
-/***/
 
+/*****HEADER****/
 nav{
-     
     background: #444;
 }
 
 nav ul {
-   
     display:flex;
-    flex-flow:row wrap;
-    
+    flex-flow:row wrap; 
 }
 
 nav li{
@@ -64,12 +62,14 @@ nav li:hover {
     background: whitesmoke;
     height:40vh;
 }
+/***FIN HEADER***/
 
+
+
+/****MAIN***/
 #title h2{
-    /* font-size: 2rem; */
     text-align: center;
     margin: 2.5rem 1rem;
-
 }
 
 #articles{
@@ -87,26 +87,20 @@ nav li:hover {
 }
 
 form{
-   /* border: 1px solid coral; */
     margin: 2.5rem 1rem;
     padding-top: 1rem;
     border-top: 2px solid grey;
     display:flex;
     flex-flow:column wrap;
     align-content: start;
-
-    
 }
 
-
 .flex-form{
-    /* max-width: 600px; */
     display: flex;
     flex-flow:column wrap;
     align-items: center;
     width: 100%;
     padding:2rem 4rem;
-  
 }
 
 .flex-form input, .flex-form textarea, .flex-form select{
@@ -122,9 +116,10 @@ form{
 .flex-form select {
     border: 2px solid #ddd;
     background-color: white;
-
 }
+/***FIN MAIN****/
 
+/****FOOTER***/
 footer{
     background-color: #555;
     color:white;
@@ -134,4 +129,11 @@ footer{
 
 footer a{
     color : #888;
+    transition: 0.8s 0s ease-in-out;
 }
+
+footer a:hover {
+    color: #f77;
+    font-size: 1.2rem;
+}
+/***FIN FOOTER***/
