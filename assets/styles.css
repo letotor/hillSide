@@ -155,17 +155,3 @@ footer a:hover {
     font-size: 1.2rem;
 }
 /***FIN FOOTER***/
-
-
-@media (max-width:600px) {
-    .container {
-        width: 100%;
-        margin: 0 auto;
-        background: #777;
-    }
-
-    #articles {
-        flex-flow: column nowrap;
-    }
-
-}
