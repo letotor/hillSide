@@ -34,6 +34,8 @@ h2{
     width:70%;
 }
 
+
+
 .active{
     background-color: #eee;
 }
@@ -43,17 +45,31 @@ h2{
 /*****HEADER****/
 nav{
     background: #444;
+    margin: 0;
 }
 
 nav ul {
+    padding:0;
+    margin:0;
     display:flex;
     flex-flow:row wrap; 
+    align-content: center;
 }
 
 nav li{
-    padding: 0.5rem 1.2rem;
-    font-size: 1.4rem;
+    padding: 1rem;
+    font-size: 1.2rem;
 }
+
+nav li:not(:first-child) {
+    padding-top: 1.3rem;
+}
+
+nav li:first-child{
+    font-size: 1.5rem;
+    color: #ddd;
+}
+
 nav li:hover {
    cursor: pointer;
    background: #888;
@@ -76,8 +92,10 @@ nav li:hover {
     display: flex;
     flex-flow: row wrap;
     width:100%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
+
+
 
 .img1{
     background: whitesmoke;
@@ -137,3 +155,17 @@ footer a:hover {
     font-size: 1.2rem;
 }
 /***FIN FOOTER***/
+
+
+@media (max-width:600px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        background: #777;
+    }
+
+    #articles {
+        flex-flow: column nowrap;
+    }
+
+}
